@@ -51,6 +51,12 @@
     padding-top: 20px;
 }
 
+.trait:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    padding-top: 20px;
+}
+
 #logo {
     width: 10%;
     height: auto;
@@ -72,9 +78,26 @@ h2 {
 #maRecherche {
     width: 200px;
     height: 30px;
+    /*margin-right: 0;*/
+    margin-left: 0px;
+    border: 1px #F9F8FC solid;
+    border-left: none;
+    border-right: none;
+   font-weight: bold;
+    
     
 }
 
+#map {
+    width: 41px;
+    height: 22.5px;
+    text-align: center;
+    padding-top: 5px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+    background-color: #D9D7DC;
+}
 .myButton {
     color: white;
     background-color: #0065FC;
@@ -83,9 +106,6 @@ h2 {
     text-align: center;
     border: none;
     border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    
-
-    
-    
+    border-top-right-radius: 10px;      
 }
+
