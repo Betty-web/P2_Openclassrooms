@@ -318,10 +318,10 @@ h2 {
 
 .infoLogement {
     /*margin-right: 2rem;*/
-    margin-left: 4em;
-  margin-top: 10px;
+    margin-left: 4.5em;
+    margin-top: 10px;
     position: fixed;  
-    color:green
+    /*color:green*/
 }
 
 .infolog {
