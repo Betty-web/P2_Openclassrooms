@@ -1,3 +1,7 @@
+body {
+    margin-left:100px; margin-right: 100px; margin-top: 100px; margin-bottom: 100px;
+}
+
 .nav {
     padding: 0;
     margin: 0;
@@ -80,7 +84,7 @@ h2 {
     height: 30px;
     /*margin-right: 0;*/
     margin-left: 0px;
-    border: 1px #F9F8FC solid;
+    border: 1px #F4F3F5 solid;
     border-left: none;
     border-right: none;
    font-weight: bold;
@@ -96,7 +100,8 @@ h2 {
     border: none;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px; 
-    background-color: #D9D7DC;
+    background-color: #ECEBED;
+  
 }
 .myButton {
     color: white;
@@ -109,3 +114,216 @@ h2 {
     border-top-right-radius: 10px;      
 }
 
+#nav2 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#nav2 {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 61px;
+    margin-left: 10rem;  
+}
+.filtre {
+    font-size: large;
+    font-weight: bold;
+    position:fixed;
+    margin-top: 67px;
+   
+}
+
+.eco{
+    margin-right: 100rem;
+    margin-left: auto;
+    text-transform: capitalize;
+    align-items: center;
+    font-weight: bold; 
+    position: fixed;          
+}
+
+.eco a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    /*width: 500px;*/
+    height: 60px;
+    margin-left:0;
+    padding: 6px 8px; 
+    border: 2px #E9EDEF solid;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px; 
+    border-left: none;
+    /*margin-left: 0.10em;*/       
+}
+
+.eco a:hover {
+    border-right: 3px solid #0065FC;
+}
+
+.fam{
+    margin-right: 82rem;
+    margin-left: auto;
+    text-transform: capitalize;
+    align-items: center;
+    font-weight: bold;
+    position: fixed;
+}
+
+.fam a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    /*width: 500px;*/
+    height: 60px;
+    margin-left:0;
+    padding: 6px 8px; 
+    border: 2px #E9EDEF solid;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px; 
+    border-left: none;
+    /*letter-spacing: 1.2px;*/
+}
+
+.fam a:hover {
+    border-right: 3px solid #0065FC;
+}
+
+
+.rom {
+    margin-right: 64rem;
+    margin-left: auto;
+    text-transform: capitalize;
+    align-items: center;
+    font-weight: bold;
+    position: fixed;
+}
+
+.rom a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    /*width: 500px;*/
+    height: 60px;
+    margin-left:0;
+    padding: 6px 8px; 
+    border: 2px #E9EDEF solid;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px; 
+    border-left: none;
+    /*letter-spacing: 1.2px;*/
+}
+
+.rom a:hover {
+    border-right: 3px solid #0065FC;
+}
+
+
+.animaux {
+    margin-right: 42rem;
+    margin-left: auto;
+    text-transform: capitalize;
+    align-items: center;
+    font-weight: bold;
+    position:fixed;
+}
+
+.animaux a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    /*width: 500px;*/
+    height: 60px;
+    margin-left:0;
+    padding: 6px 8px; 
+    border: 2px #E9EDEF solid;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px; 
+    border-left: none;
+    /*letter-spacing: 1.2px;*/
+}
+
+.animaux a:hover {
+    border-right: 3px solid #0065FC;
+}
+
+
+#economique {
+    color: #0065FC;
+    width: 41px;
+    height: 22.5px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 17px; 
+    background-color: #D9EAF7;
+    margin-right: -0.70em;     
+}
+
+#familial {
+    color:#0065FC;
+    width: 41px;
+    height: 22.5px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 17px; 
+    background-color: #D9EAF7;
+    margin-right: -0.70em;  
+}
+
+#Romantique {
+    color: #0065FC;
+    width: 41px;
+    height: 22.5px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 17px; 
+    background-color: #D9EAF7;
+    margin-right: -0.70em; 
+}
+
+#animaux {
+    color: #0065FC;
+    width: 41px;
+    height: 22.5px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 17px; 
+    background-color: #D9EAF7;
+    margin-right: -0.70em; 
+}
+
+#info {
+   color: #0065FC;
+    width: 41px;
+    height: 22.5px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 3px;
+    border: 2px #e5e5e6 solid; 
+    border-radius: 20px; 
+    position:fixed;
+}
+
+.infoLogement {
+    /*margin-right: 2rem;*/
+    margin-left: 4em;
+  margin-top: 10px;
+    position: fixed;  
+    color:green
+}
+
+.infolog {
+    margin-top: 20px;
+}
