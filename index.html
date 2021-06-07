@@ -3,13 +3,16 @@
 <head>
     <title>Reservia</title>
     <meta charset="UTF-8">
-    <metat name="description" content="Trouvez votre hébergement pour des vacances de rêve">
+    <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve">
     <meta name="keywords" content="reservation hébergement chambres d'hôtel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link rel="stylesheet" type="text/css" href="style.css" /><!--css pour tout le mond-->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1.200&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family= Raleway:wght@200 & display=swap" rel="stylesheet">
+   
+
 </head>
 <body>
                 <!--entête-->
@@ -23,6 +26,8 @@
                 <li class="bleugras"><a href="#">S'inscrire</a></li>
             </ul>
         </nav>
+    </header>
+    <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
        <h2>En plein centre ville ou en pleine nature</h2>
                 <!--formulaire de recherche-->
@@ -30,13 +35,13 @@
                     <div>
                         <i class="fas fa-map-marker-alt" id="map"></i>
                        <input type="search" id="maRecherche" name="ville"
-                       placeholder="Marseille, France" size="30">
+                       placeholder="Marseille, France" size="30" class="placeholder">
                       <button a href="#" class="myButton">Rechercher</button>  
                     </div>
                 </form> 
                 <!--div pour filtres-->
         <h2 class="filtre">Filtres</h2>
-        <div>
+        <div class="conteneur-filtres">
             <ul id="nav2">
                 <li class="eco">
                     <i class="fas fa-money-bill-wave" id="economique"></i>
@@ -61,20 +66,47 @@
             <i class="fas fa-info" id="info"></i>
             <h2 class="infoLogement"> Plus de 500 logements sont disponibles dans cette ville</h2>
         </div>
-    </header>
+    </section>
     
                     <!-- Section hebergements-->
     <div id="conteneur">
-        <section>
-            <h3 id="hebergement">Hebergements à Marseille</h3>
+        <section class="section1">
+            <h3 id="hebergement">Hébergements à Marseille</h3>
             <div class="range1">
                 <article class="art">
                     <a class="clic" herf="#">
-                        
+                        <img class="img1"src="images/hebergements/3_medium/aubergelacannebiere.jpg" alt="Auberge de la Cannebière" id="lacanne"/>
+                        <div class="legende">
+                        <h4 class="h4lacanneBiere">Auberge la Cannebière</h4>
+                        <h5 class="h5lacanneBiere">Nuit à partir de <strong>25€</strong></h5>
+                        <div class="etoiles">
+                            <i class="fas fa-star" id="star1"></i>
+                            <i class="fas fa-star" id="star2"></i>
+                            <i class="fas fa-star" id="star3"></i>
+                            <i class="fas fa-star" id="star4"></i>
+                            <i class="fas fa-star" id="star5"></i>
+                        </div>
+                    </div>                       
                     </a>
                 </article>
             </div>
-        </section>
+        <article class="art2">
+                    <a class="clic" href="#">
+                    <img class="img2" src="images/hebergements/3_medium/hotelduport.jpg" alt="Hôtel du port" id="hotelduport" />
+                    <div class="legende2">
+                    <h4 class="h4hotelduport">Hôtel du port</h4>
+                    <h5 class="h5hotelduport">Nuit à partir de <strong>52€</strong></h5>
+                    <div class="etoiles2">
+                        <i class="fas fa-star" id="star6"></i>
+                        <i class="fas fa-star" id="star7"></i>
+                        <i class="fas fa-star" id="star8"></i>
+                        <i class="fas fa-star" id="star9"></i>
+                        <i class="fas fa-star" id="star10"></i>
+                    </div>
+                </div>
+             </a>
+        </article>
+    </section>
     </div>
     <!-- section 2  -->
     <section id="populaire">
@@ -83,8 +115,8 @@
     <!-- section 3 -->
     <section id="activites">
     </section>
-    <footer>
-        <script src="https://kit.fontawesome.com/8fc61f04f6.js" crossorigin="anonymous"></script>
+    <footer>     
     </footer>
+    <script src="https://kit.fontawesome.com/8fc61f04f6.js" crossorigin="anonymous"></script>
 </body>
 </html>

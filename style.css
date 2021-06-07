@@ -1,7 +1,15 @@
 body {
-    margin-left:100px; margin-right: 100px; margin-top: 100px; margin-bottom: 100px;
+    font-family : 'Raleway', sans-serif ;
 }
 
+html {
+    scroll-behavior: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
 .nav {
     padding: 0;
     margin: 0;
@@ -64,32 +72,19 @@ body {
 #logo {
     width: 10%;
     height: auto;
-    position:fixed;
-    margin-top: 10px;
+    /*justify-content: flex-start;*/
+    margin-top: 9px;
     /*height: 70px;*/
 }
 
 h1 {
-    margin-top: 70px;
+    margin-top: 20px;
     font-size: x-large;
 }
 
 h2 {
     font-size: medium;
     font-weight: normal;
-}
-
-#maRecherche {
-    width: 200px;
-    height: 30px;
-    /*margin-right: 0;*/
-    margin-left: 0px;
-    border: 1px #F4F3F5 solid;
-    border-left: none;
-    border-right: none;
-   font-weight: bold;
-    
-    
 }
 
 #map {
@@ -100,9 +95,25 @@ h2 {
     border: none;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px; 
-    background-color: #ECEBED;
-  
+    background-color: #ECEBED; 
 }
+
+#maRecherche {
+    width: 200px;
+    height: 30px;
+    /*margin-right: 0;*/
+    margin-left: 0px;
+    border: 1px #F4F3F5 solid;
+    border-left: none;
+    border-right: none;
+    font-weight: bolder; 
+}
+
+input::placeholder {
+    color:black;
+
+}
+
 .myButton {
     color: white;
     background-color: #0065FC;
@@ -114,6 +125,18 @@ h2 {
     border-top-right-radius: 10px;      
 }
 
+.filtre {
+    font-size: large;
+    font-weight: bold;
+    /*position:fixed;*/
+    margin-top: 30px;
+    display: inline-block; 
+}
+
+.conteneur-filtres {
+    display: inline-block;
+}
+
 #nav2 {
     padding: 0;
     margin: 0;
@@ -122,28 +145,22 @@ h2 {
 }
 
 #nav2 {
-    padding: 1rem;
+    /*padding: 1rem;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 61px;
-    margin-left: 10rem;  
-}
-.filtre {
-    font-size: large;
-    font-weight: bold;
-    position:fixed;
-    margin-top: 67px;
-   
+   /* margin-top: 61px;*/
+    margin-left: 20px;
+    /*padding-left: -0.31em;*/  
 }
 
 .eco{
-    margin-right: 100rem;
-    margin-left: auto;
+    /*padding-left:100px;*/
     text-transform: capitalize;
     align-items: center;
     font-weight: bold; 
-    position: fixed;          
+    margin-right: 2rem;
+    /*position: fixed;*/          
 }
 
 .eco a {
@@ -166,12 +183,13 @@ h2 {
 }
 
 .fam{
-    margin-right: 82rem;
-    margin-left: auto;
+    /*margin-right: 82rem;*/
+    /*margin-left: auto;*/
     text-transform: capitalize;
     align-items: center;
     font-weight: bold;
-    position: fixed;
+    margin-right: 2rem;
+    /*position: fixed;*/
 }
 
 .fam a {
@@ -195,12 +213,13 @@ h2 {
 
 
 .rom {
-    margin-right: 64rem;
-    margin-left: auto;
+    /*margin-right: 64rem;*/
+    /*margin-left: auto;*/
     text-transform: capitalize;
     align-items: center;
     font-weight: bold;
-    position: fixed;
+    margin-right: 2rem;
+    /*position: fixed;*/
 }
 
 .rom a {
@@ -224,12 +243,13 @@ h2 {
 
 
 .animaux {
-    margin-right: 42rem;
-    margin-left: auto;
+   /* margin-right: 42rem;*/
+    /*margin-left: auto;*/
     text-transform: capitalize;
     align-items: center;
     font-weight: bold;
-    position:fixed;
+    margin-right: 2rem;
+    /*position:fixed;*/
 }
 
 .animaux a {
@@ -325,5 +345,104 @@ h2 {
 }
 
 .infolog {
-    margin-top: 20px;
+    margin-top: 5px;
 }
+
+#conteneur {
+    background-color: #ECEBED;
+    margin-top: 60px;
+    position: fixed;
+    width: 50%;
+    border-radius: 10px;
+    height: 550px;
+}
+
+.section1 {
+    padding-left:20px; 
+}
+
+#hebergement {
+    padding-top: 10px;
+    font-size: medium;
+}
+
+.img1 {
+    width: 188px;
+    /*width: 20%;*/
+    height: 90px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-bottom: 7px white solid;
+    /*border-bottom: nones;*/        
+}
+
+.h4lacanneBiere {
+    /*padding-top: 1px;*/
+    margin-top: 4px;
+    font-weight: 900;
+    font-size: small;
+    text-align: center;
+    /*position: fixed;*/
+}
+
+.h5lacanneBiere {
+    margin-top: -10.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    /*margin-top: -0.50em;*/
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+strong {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.etoiles {
+    margin-top: -17.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-size: xx-small;
+    /*position: fixed*/
+}
+
+#star1 {
+    color: #0065FC;
+}
+
+#star2 {
+    color: #0065FC;
+}
+
+#star3 {
+    color: #0065FC;
+}
+
+#star4 {
+    color: #0065FC;   
+}
+
+#star5 {
+    color: #d7d7d8;   
+}
+
+.legende {
+    width: 192.1px;
+    height: 80px;
+    border: 2px white solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    margin-top: -10.30px;
+    /*border-top: none;*/
+}
+
+.img2 {
+    width: 188px;
+    height: 90px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-bottom: 7px white solid;  
+}
+
+
