@@ -1,5 +1,7 @@
 body {
     font-family : 'Raleway', sans-serif ;
+    /*margin-left: 200px;
+    margin-right: 200px;*/
 }
 
 html {
@@ -27,10 +29,11 @@ header {
     align-items: center;
     margin-top: 50px;
     
+    
 }
 
 .w50 {
-    margin-right: 2rem;
+    margin-right: 1rem;
     text-transform: capitalize;
     align-items: center;
     font-weight: 500;
@@ -48,13 +51,15 @@ header {
 .bleugras a {
     color:  #0065FC;
     text-decoration: none;
-    letter-spacing: 1.2px;
+   /*letter-spacing: 1.2px;*/
+    font-size: large;
 }
 
 .w50 a {
     text-decoration: none;
     color: #8F8F8F;
-    letter-spacing: 1.2px;
+    /*letter-spacing: 1.2px;*/
+    font-size: large;
 }
 
 .heb:hover {
@@ -145,13 +150,11 @@ input::placeholder {
 }
 
 #nav2 {
-    /*padding: 1rem;*/
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-   /* margin-top: 61px;*/
     margin-left: 20px;
-    /*padding-left: -0.31em;*/  
+    /*padding-left: 50px;*/
 }
 
 .eco{
@@ -160,22 +163,26 @@ input::placeholder {
     align-items: center;
     font-weight: bold; 
     margin-right: 2rem;
-    /*position: fixed;*/          
+    font-size: large;
+    
+             
 }
 
 .eco a {
     color: black;
     text-decoration: none;
     width: 100%;
-    /*width: 500px;*/
     height: 60px;
-    margin-left:0;
-    padding: 6px 8px; 
+    margin-left:-2px;
+    padding: 6px;
+    padding-bottom: 3px;
+    /*padding-right: 10px;*/
+    /*padding: 6px 8px;*/
     border: 2px #E9EDEF solid;
     border-bottom-right-radius: 17px;
     border-top-right-radius: 17px; 
     border-left: none;
-    /*margin-left: 0.10em;*/       
+         
 }
 
 .eco a:hover {
@@ -183,28 +190,28 @@ input::placeholder {
 }
 
 .fam{
-    /*margin-right: 82rem;*/
-    /*margin-left: auto;*/
     text-transform: capitalize;
     align-items: center;
     font-weight: bold;
     margin-right: 2rem;
-    /*position: fixed;*/
+    font-size: large;
+    /*padding-left: 150px;*/
 }
 
 .fam a {
     color: black;
     text-decoration: none;
     width: 100%;
-    /*width: 500px;*/
+   /* width: 500px;*/
     height: 60px;
-    margin-left:0;
-    padding: 6px 8px; 
+    margin-left:-2px;
+    padding: 6px;
+    padding-bottom: 3px;
+    /*padding: 6px 8px;*/ 
     border: 2px #E9EDEF solid;
     border-bottom-right-radius: 17px;
     border-top-right-radius: 17px; 
-    border-left: none;
-    /*letter-spacing: 1.2px;*/
+    border-left: none;   
 }
 
 .fam a:hover {
@@ -219,6 +226,8 @@ input::placeholder {
     align-items: center;
     font-weight: bold;
     margin-right: 2rem;
+    font-size: large;
+    /*padding-left: 150px;*/
     /*position: fixed;*/
 }
 
@@ -228,8 +237,10 @@ input::placeholder {
     width: 100%;
     /*width: 500px;*/
     height: 60px;
-    margin-left:0;
-    padding: 6px 8px; 
+    margin-left:-2px;
+    padding: 6px;
+    padding-bottom: 3px;
+    /*padding: 6px 8px;*/ 
     border: 2px #E9EDEF solid;
     border-bottom-right-radius: 17px;
     border-top-right-radius: 17px; 
@@ -243,13 +254,13 @@ input::placeholder {
 
 
 .animaux {
-   /* margin-right: 42rem;*/
-    /*margin-left: auto;*/
     text-transform: capitalize;
     align-items: center;
     font-weight: bold;
-    margin-right: 2rem;
-    /*position:fixed;*/
+    font-size: larger;
+    /*margin-right: 2rem;*/
+    /*margin-right: -10px;*/
+    
 }
 
 .animaux a {
@@ -258,13 +269,15 @@ input::placeholder {
     width: 100%;
     /*width: 500px;*/
     height: 60px;
-    margin-left:0;
-    padding: 6px 8px; 
+    margin-left:-2px;
+    padding: 6px; 
+    padding-bottom: 3px;
     border: 2px #E9EDEF solid;
     border-bottom-right-radius: 17px;
     border-top-right-radius: 17px; 
     border-left: none;
-    /*letter-spacing: 1.2px;*/
+    /*font-size: large;*/
+
 }
 
 .animaux a:hover {
@@ -352,23 +365,31 @@ input::placeholder {
     background-color: #ECEBED;
     margin-top: 60px;
     position: fixed;
-    width: 50%;
+    /*width: 900px;*/
+    width: 700px;
     border-radius: 10px;
-    height: 550px;
+    height: 550px; 
 }
 
 .section1 {
-    padding-left:20px; 
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-content: space-around;*/
+    justify-content: space-around;
+    
 }
 
 #hebergement {
-    padding-top: 10px;
-    font-size: medium;
+    /*margin-top: -50.31px;*/
+    padding-top: 5px;
+    padding-left: 27px;
+    font-size: large;
 }
 
 .img1 {
-    width: 188px;
-    /*width: 20%;*/
+    width: 200px;
+    /*width: 188px;*/
     height: 90px;
     border: 4px white solid;
     border-radius: 10px;
@@ -377,16 +398,16 @@ input::placeholder {
 }
 
 .h4lacanneBiere {
-    /*padding-top: 1px;*/
     margin-top: 4px;
+    padding-left: 13px;
     font-weight: 900;
     font-size: small;
-    text-align: center;
-    /*position: fixed;*/
+    /*text-align: center;*/
+    
 }
 
 .h5lacanneBiere {
-    margin-top: -10.1px;
+    margin-top: -12.1px;
     padding-top: 1px;
     padding-left: 13px;
     /*margin-top: -0.50em;*/
@@ -402,9 +423,8 @@ strong {
     margin-top: -17.1px;
     padding-top: 1px;
     padding-left: 13px;
-    font-size: xx-small;
-    /*position: fixed*/
-}
+    font-size: xx-small; 
+} 
 
 #star1 {
     color: #0065FC;
@@ -426,23 +446,371 @@ strong {
     color: #d7d7d8;   
 }
 
-.legende {
-    width: 192.1px;
-    height: 80px;
+.legende1 {
+    width: 204.1px;
+    /*width: 192.1px;*/
+    height: 75px;
     border: 2px white solid;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: white;
-    margin-top: -10.30px;
-    /*border-top: none;*/
+    margin-top: -10.30px;   
+}
+
+.art1 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
 
 .img2 {
-    width: 188px;
+    width: 200px;
+   /* width: 188px;*/
     height: 90px;
     border: 4px white solid;
     border-radius: 10px;
     border-bottom: 7px white solid;  
 }
 
+.h4hotelduport {
+    margin-top: 3px;
+    font-weight: 900;
+    font-size: small;
+    padding-left: 13px;
 
+    /*text-align: center;*/
+}
+
+.h5hotelduport {
+    margin-top: -13.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+.etoiles2 {
+    margin-top: -17.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star6 {
+    color: #0065FC;
+}
+
+#star7 {
+    color: #0065FC;
+}
+
+#star8 {
+    color: #0065FC;
+}
+
+#star9 {
+    color: #0065FC;   
+}
+
+#star10 {
+    color: #0065FC;  
+}
+
+.legende2 {
+    width: 204.1px;
+    /*width: 192.1px;*/
+    height: 75px;
+    border: 2px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: -10.30px;   
+}
+
+.art2 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.img3 {
+    width: 200px;
+    /*width: 188px;*/
+    height: 90px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-bottom: 7px white solid;  
+}
+
+.h4lesmouettes {
+    margin-top: 3px;
+    font-weight: 900;
+    font-size: small;
+    padding-left: 13px;
+
+
+    /*text-align: center;*/
+}
+
+.h5lesmouettes {
+    margin-top: -13.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+.etoiles3 {
+    margin-top: -17.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star11 {
+    color: #0065FC;
+}
+
+#star12 {
+    color: #0065FC;
+}
+
+#star13 {
+    color: #0065FC;
+}
+
+#star14 {
+    color: #0065FC;   
+}
+
+#star15 {
+    color: #d7d7d8;  
+}
+
+.legende3 {
+    width: 204.1px;
+    /*width: 192.1px;*/
+    height: 75px;
+    border: 2px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: -10.30px;   
+}
+
+.art3 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.img4 {
+    width: 200px;
+    /*width: 188px;*/
+    height: 90px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-bottom: 7px white solid;  
+}
+
+.h4hoteldelamer {
+    margin-top: 3px;
+    font-weight: 900;
+    font-size: small;
+    padding-left: 13px;
+
+    /*text-align: center;*/
+}
+
+.h5hoteldelamer {
+    margin-top: -13.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+.etoiles4 {
+    margin-top: -17.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star16 {
+    color: #0065FC;
+}
+
+#star17 {
+    color: #0065FC;
+}
+
+#star18 {
+    color: #0065FC;
+}
+
+#star19 {
+    color: #0065FC;   
+}
+
+#star20 {
+    color: #d7d7d8;  
+}
+
+.legende4 {
+    width: 204px;
+    /*width: 192.1px;*/
+    height: 75px;
+    border: 2px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: -10.30px;   
+}
+
+.art4 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.img5 {
+    width: 200px;
+    /*width: 188px;*/
+    height: 90px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-bottom: 7px white solid;  
+}
+
+.h4lepanier {
+    margin-top: 3px;
+    font-weight: 900;
+    font-size: small;
+    padding-left: 13px;
+    /*text-align: center;*/
+}
+
+.h5hlepanier {
+    margin-top: -13.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;         
+}
+
+.etoiles5 {
+    margin-top: -17.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star21 {
+    color: #0065FC;
+}
+
+#star22 {
+    color: #0065FC;
+}
+
+#star23 {
+    color: #0065FC;
+}
+
+#star24 {
+    color: #0065FC;   
+}
+
+#star25 {
+    color: #d7d7d8;  
+}
+
+.legende5 {
+    width: 204px;
+    /*width: 192.1px;*/
+    height: 75px;
+    border: 2px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: -10.30px;   
+}
+
+.art5 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.img6 {
+    width: 200px;
+    /*width: 188px;*/
+    height: 90px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-bottom: 7px white solid;  
+}
+
+.h4chezamina {
+    margin-top: 3px;
+    font-weight: 900;
+    font-size: small;
+    padding-left: 13px;
+    /*text-align: center;*/
+}
+
+.h5chezamina {
+    margin-top: -13.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+.etoiles6 {
+    margin-top: -17.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star26 {
+    color: #0065FC;
+}
+
+#star27 {
+    color: #0065FC;
+}
+
+#star28 {
+    color: #0065FC;
+}
+
+#star29 {
+    color: #0065FC;   
+}
+
+#star30 {
+    color: #d7d7d8;  
+}
+
+.legende6 {
+    width: 204px;
+    /*width: 192.1px;*/
+    height: 75px;
+    border: 2px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: -10.30px;  
+}
+
+.art6 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
