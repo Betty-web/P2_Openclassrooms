@@ -364,14 +364,19 @@ input::placeholder {
     margin-top: 5px;
 }
 
+#global {
+    width: 100%;
+   
+}
+
 #conteneur {
     background-color: #ECEBED;
     margin-top: 60px;
-    position: fixed;
-    /*width: 900px;*/
     width: 700px;
     border-radius: 10px;
-    height: 550px; 
+    height: 550px;  
+    display: inline-block;
+    vertical-align: top;
     
 }
 
@@ -381,9 +386,7 @@ input::placeholder {
     flex-wrap: wrap;
     /*align-content: space-around;*/
     justify-content: space-around;
-    /*flex:6;*/
-    /*justify-content: center;
-    align-items: center;*/  
+      
 }
 
 .rang2 {
@@ -839,10 +842,9 @@ strong {
     font-size: large;
 }
 
-#conteneur2 {
+.global {
     /*background-color: #ECEBED;
     margin-top: 60px;
-    position: fixed;
     width: 700px;
     border-radius: 10px;
     height: 550px;
@@ -851,11 +853,39 @@ strong {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    justify-content: flex-end;*/
-
-     
-
-    
+    display: inline-block;  */
+ 
     
 }
+
+
+
+.conteneur1 {
+   background-color: #ECEBED;
+   /* margin-top: 60px;*/
+    width: 500px;
+    border-radius: 10px;
+    /*height: 550px;*/
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+       
+    
+}
+
+#populaires {
+    /*display: flex;
+    justify-content: flex-end;
+    
+    padding-top: 5px;
+    padding-left: 27px;
+    font-size: large;*/
+}
+
+#chartLine {
+    /*display: flex;
+    justify-content: flex-end;*/
+   
 
