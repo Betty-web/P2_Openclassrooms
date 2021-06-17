@@ -365,8 +365,10 @@ input::placeholder {
 }
 
 #global {
-    width: 100%;
-   
+    width: 1900px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 #conteneur {
@@ -374,17 +376,13 @@ input::placeholder {
     margin-top: 60px;
     width: 700px;
     border-radius: 10px;
-    height: 550px;  
-    display: inline-block;
-    vertical-align: top;
-    
+    height: 550px;   
 }
 
 .rang1 {
     padding-top:10px;
     display: flex;
     flex-wrap: wrap;
-    /*align-content: space-around;*/
     justify-content: space-around;
       
 }
@@ -842,50 +840,26 @@ strong {
     font-size: large;
 }
 
-.global {
-    /*background-color: #ECEBED;
-    margin-top: 60px;
-    width: 700px;
-    border-radius: 10px;
-    height: 550px;
-    justify-content: flex-end;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    display: inline-block;  */
- 
-    
-}
-
-
-
 .conteneur1 {
-   background-color: #ECEBED;
-   /* margin-top: 60px;*/
-    width: 500px;
-    border-radius: 10px;
+    background-color: #ECEBED;
+    width: 520px;
     /*height: 550px;*/
-    display: inline-block;
-    vertical-align: top;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-       
-    
+    border-radius: 10px;
+    /*display: flex;
+    justify-content:flex-end;*/   
 }
 
 #populaires {
-    /*display: flex;
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
     
-    padding-top: 5px;
+    /*padding-top: 5px;
     padding-left: 27px;
     font-size: large;*/
 }
 
 #chartLine {
-    /*display: flex;
-    justify-content: flex-end;*/
-   
-
+    display: flex;
+    justify-content: space-between;
+    
+}
