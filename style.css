@@ -349,14 +349,15 @@ input::placeholder {
     padding-bottom: 3px;
     border: 2px #e5e5e6 solid; 
     border-radius: 20px; 
-    position:fixed;
+    /*position:fixed;*/
 }
 
 .infoLogement {
     /*margin-right: 2rem;*/
-    margin-left: 4.5em;
+    margin-left: 1rem;
     margin-top: 10px;
-    position: fixed;  
+    display: inline-block;
+    /*position: fixed;*/  
     /*color:green*/
 }
 
@@ -365,18 +366,20 @@ input::placeholder {
 }
 
 #global {
-    width: 1900px;
+   /* width: 1900px;*/
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-around;*/
+    j/*ustify-content: space-beetwen;*/
     
 }
 
 #conteneur {
     background-color: #ECEBED;
-    margin-top: 60px;
-    width: 700px;
+    /*margin-top: 60px;*/
+    width: 70%;
+    margin-right:3rem;
     border-radius: 10px;
-    height: 550px;   
+    height: 720px;   
 }
 
 .rang1 {
@@ -401,18 +404,18 @@ input::placeholder {
 #hebergement {
     /*margin-top: -50.31px;*/
     padding-top: 5px;
-    padding-left: 27px;
+    padding-left: 75px;
     font-size: large;
 }
 
 .img1 {
-    width: 200px;
-    /*width: 188px;*/
-    height: 90px;
+    width: 300px;
+    /*height: 90px;*/
+    height: 170px;
     border: 4px white solid;
     border-radius: 10px;
-    border-bottom: 7px white solid;
-    /*border-bottom: nones;*/       
+    border-bottom: 7px white solid; 
+          
 }
 
 .h4lacanneBiere {
@@ -465,14 +468,14 @@ strong {
 }
 
 .legende1 {
-    width: 204.1px;
+    width: 304.1px;
     /*width: 192.1px;*/
     height: 75px;
     border: 2px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: white;
-    margin-top: -10.30px;   
+    margin-top: -10.30px; 
 }
 
 .art1 a {
@@ -482,9 +485,9 @@ strong {
 }
 
 .img2 {
-    width: 200px;
-   /* width: 188px;*/
-    height: 90px;
+    width: 300px;
+    /*height: 90px;*/
+    height: 170px;
     border: 4px white solid;
     border-radius: 10px;
     border-bottom: 7px white solid;  
@@ -535,7 +538,7 @@ strong {
 }
 
 .legende2 {
-    width: 204.1px;
+    width: 304.1px;
     /*width: 192.1px;*/
     height: 75px;
     border: 2px white solid;
@@ -552,9 +555,9 @@ strong {
 }
 
 .img3 {
-    width: 200px;
-    /*width: 188px;*/
-    height: 90px;
+    width: 300px;
+    /*height: 90px;*/
+    height: 170px;
     border: 4px white solid;
     border-radius: 10px;
     border-bottom: 7px white solid;  
@@ -606,7 +609,7 @@ strong {
 }
 
 .legende3 {
-    width: 204.1px;
+    width: 304px;
     /*width: 192.1px;*/
     height: 75px;
     border: 2px white solid;
@@ -624,9 +627,9 @@ strong {
 
 
 .img4 {
-    width: 200px;
-    /*width: 188px;*/
-    height: 90px;
+    width: 300px;
+    /*height: 90px;*/
+    height: 170px;
     border: 4px white solid;
     border-radius: 10px;
     border-bottom: 7px white solid;
@@ -678,7 +681,7 @@ strong {
 }
 
 .legende4 {
-    width: 204px;
+    width: 304px;
     /*width: 192.1px;*/
     height: 75px;
     border: 2px white solid;
@@ -695,9 +698,9 @@ strong {
 }
 
 .img5 {
-    width: 200px;
-    /*width: 188px;*/
-    height: 90px;
+    width: 300px;
+    /*height: 90px;*/
+    height: 170px;
     border: 4px white solid;
     border-radius: 10px;
     border-bottom: 7px white solid;  
@@ -748,7 +751,7 @@ strong {
 }
 
 .legende5 {
-    width: 204px;
+    width: 304px;
     /*width: 192.1px;*/
     height: 75px;
     border: 2px white solid;
@@ -766,9 +769,9 @@ strong {
 
 
 .img6 {
-    width: 200px;
-    /*width: 188px;*/
-    height: 90px;
+    width: 300px;
+    /*height: 90px;*/
+    height: 170px;
     border: 4px white solid;
     border-radius: 10px;
     border-bottom: 7px white solid;  
@@ -818,7 +821,7 @@ strong {
 }
 
 .legende6 {
-    width: 204px;
+    width: 304px;
     /*width: 192.1px;*/
     height: 75px;
     border: 2px white solid;
@@ -850,16 +853,12 @@ strong {
 }
 
 #populaires {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
     
-    /*padding-top: 5px;
-    padding-left: 27px;
-    font-size: large;*/
 }
 
 #chartLine {
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;*/
     
 }
