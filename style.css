@@ -366,16 +366,12 @@ input::placeholder {
 }
 
 #global {
-   /* width: 1900px;*/
-    display: flex;
-    /*justify-content: space-around;*/
-    j/*ustify-content: space-beetwen;*/
-    
+    display: flex; 
 }
 
 #conteneur {
     background-color: #ECEBED;
-    /*margin-top: 60px;*/
+    /*margin-top: 30px;*/
     width: 70%;
     margin-right:3rem;
     border-radius: 10px;
@@ -394,15 +390,10 @@ input::placeholder {
     padding-top:30px;
     display: flex;
     flex-wrap: wrap;
-    /*align-content: space-around;*/
-    justify-content: space-around;
-    /*flex:6;*/
-    /*justify-content: center;
-    align-items: center;*/  
+    justify-content: space-around;  
 }
 
 #hebergement {
-    /*margin-top: -50.31px;*/
     padding-top: 5px;
     padding-left: 75px;
     font-size: large;
@@ -846,19 +837,261 @@ strong {
 .conteneur1 {
     background-color: #ECEBED;
     width: 520px;
-    /*height: 550px;*/
-    border-radius: 10px;
-    /*display: flex;
-    justify-content:flex-end;*/   
+    border-radius: 10px;    
 }
 
 #populaires {
     display: inline-block;
+    padding-left: 60px;
+    font-size: large;
     
 }
 
 #chartLine {
-    /*display: flex;
-    justify-content: space-between;*/
+   
     
+    
+}
+
+.img7 {
+    width: 250px;
+    height: 170px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-right: 7px white solid;
+    /*border-bottom: 7px white solid; */
+    float: left;
+          
+}
+
+.h4soleildumatin {
+    margin-top: 10px;
+    padding-left: 13px;
+    font-weight: 900;
+    font-size: small;
+    /*text-align: center;*/
+    
+}
+
+.h5soleildumatin {
+    margin-top: -12.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+.etoiles7 {
+    margin-top: -17.1px;
+    padding-top: 60px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star31 {
+    color: #0065FC;
+}
+
+#star32 {
+    color: #0065FC;
+}
+
+#star33 {
+    color: #0065FC;
+}
+
+#star34 {
+    color: #0065FC;   
+}
+
+#star35 {
+    color: #0065FC;  
+}
+
+.legende7 {
+    width: 410px;
+    /*width: 304px;*/
+    height: 174px;
+    /*height: 75px;*/
+    border: 2px white solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: -10.30px;
+    
+}
+
+.art7 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.section1 {
+    margin-top: 10px;
+    padding-left: 50px;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-around;*/
+}
+
+
+.img8 {
+    width: 250px;
+    height: 170px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-right: 7px white solid;
+    float: left;
+          
+}
+
+.h4aucoeurdeleau {
+    margin-top: 10px;
+    padding-left: 13px;
+    font-weight: 900;
+    font-size: small;
+      
+}
+
+.h5aucoeurdeleau {
+    margin-top: -12.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+.etoiles8 {
+    margin-top: -17.1px;
+    padding-top: 80px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star36 {
+    color: #0065FC;
+}
+
+#star37 {
+    color: #0065FC;
+}
+
+#star38 {
+    color: #0065FC;
+}
+
+#star39 {
+    color: #0065FC;   
+}
+
+#star40 {
+    color: #d7d7d8;  
+}
+
+.legende8 {
+    width: 410px;
+    /*width: 304px;*/
+    height: 174px;
+    /*height: 75px;*/
+    border: 2px white solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+   /* margin-top: -10.30px;*/
+    
+}
+
+.art8 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.art8 {
+    margin-top: 40px;
+}
+
+
+.img9 {
+    width: 250px;
+    height: 170px;
+    border: 4px white solid;
+    border-radius: 10px;
+    border-right: 7px white solid;
+    float: left;
+          
+}
+
+.h4hoteltoutbleu {
+    margin-top: 10px;
+    padding-left: 13px;
+    font-weight: 900;
+    font-size: small;
+    /*text-align: center;*/
+    
+}
+
+.h5hoteltoutbleu {
+    margin-top: -12.1px;
+    padding-top: 1px;
+    padding-left: 13px;
+    font-weight: normal;
+    font-size: smaller;        
+}
+
+.etoiles9 {
+    margin-top: -17.1px;
+    padding-top: 80px;
+    padding-left: 13px;
+    font-size: xx-small; 
+}
+
+#star41 {
+    color: #0065FC;
+}
+
+#star42 {
+    color: #0065FC;
+}
+
+#star43 {
+    color: #0065FC;
+}
+
+#star44 {
+    color: #0065FC;   
+}
+
+#star45 {
+    color: #d7d7d8;  
+}
+
+.legende9 {
+    width: 410px;
+    /*width: 304px;*/
+    height: 174px;
+    /*height: 75px;*/
+    border: 2px white solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+   /* margin-top: -10.30px;*/
+    
+}
+
+.art9 a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.art9 {
+  margin-top: 40px;
 }
