@@ -1466,26 +1466,34 @@ strong {
 
 /* Media queries */
 
-@media screen and (max-width: 414px) {
-    
-    header {
-       width: 320px;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: stretch;
+@media all and (max-width: 640px)
+{
+    header
+    {
+        width: 600x;
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        
     }
+
+    .entete
+
+    {
+        width: 600px;
+        margin: 10px 10px;
+    }
+
     .nav {
-        width: 300px;
-        margin: 30px 30px;
+
+        margin-bottom: 50px;
+        margin-top: 0;
+        width: 60%;
+
     }
-    .nav:nth-child(1) {
-        align-self: flex-start;
-    }
-    .nav:nth-child(2) {
-        align-self: flex-end;
-    }
+
 }
+    
+
 
 
 
@@ -1505,6 +1513,7 @@ strong {
     .bloc:nth-child(1) {
         margin-top: 0;
     }
+
 }
     
 
