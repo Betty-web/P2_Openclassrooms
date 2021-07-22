@@ -1485,11 +1485,43 @@ strong {
 
     .nav {
 
-        margin-bottom: 50px;
         margin-top: 0;
         width: 60%;
 
     }
+
+   #logo
+
+   {
+       width: 90px;
+       height: 40px;
+   }  
+   
+   .nav .bleugras
+
+   {
+       position: absolute;
+       right: 0;
+       top: 30px;
+   }
+
+   #nav2
+
+   {
+       flex-wrap: wrap;
+   }
+
+   #global 
+
+   {
+       flex-direction: column;
+   }
+
+   .activite1
+
+   {
+       flex-direction: column;
+   }
 
 }
     
